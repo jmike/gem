@@ -3,7 +3,7 @@ import { storageService } from '../service/StorageService';
 import { dataOperation } from '../service/DataOperation';
 import { render } from 'react-dom';
 import { Modal } from 'react-bootstrap';
-import { authOperation, authEmitter } from '../service/authOperation';
+import { authOperation, authEmitter } from '../service/AuthOperation';
 
 export class IntroModal extends Component {
 	constructor(props) {
@@ -74,11 +74,11 @@ export class IntroModal extends Component {
 							<div className="learn-list-contianer">
 								<ul className="learn-list">
 									<li>
-										<iframe 
-											src="https://player.vimeo.com/video/192771591?title=0&byline=0&portrait=0" 
-											width="100%" 
-											height="300px" 
-											frameBorder="0" 
+										<iframe
+											src="https://player.vimeo.com/video/192771591?title=0&byline=0&portrait=0"
+											width="100%"
+											height="300px"
+											frameBorder="0"
 											allowFullScreen></iframe>
 									</li>
 									<li className="introBottom">
